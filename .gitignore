@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.idea
+.history/
+.run/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+*.log
+*.cache
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+.vscode
+
+# audio files
+audiobook_output/
+
+private_examples/
+
+# custom
+scripts/
+*.onnx
+*.onnx.json
+
+examples/
+openai/
+out/
