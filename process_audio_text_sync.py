@@ -31,10 +31,3 @@ for filename in os.listdir(folder_path):
             print(f"Processed {text_file} with {audio_file} -> {output_file}")
         else:
             print(f"Audio file not found for {filename}")
-
-
-
-python -m aeneas.tools.execute_task \
-  'out/0001_Introduction_The_Greatest_Show_On_Earth.mp3' 'out/0001_Introduction_The_Greatest_Show_On_Earth-splitted.txt' \
-  "task_language=eng|is_text_type=subtitles|os_task_file_format=json|os_task_adjust_boundary_nonspeech_min=0.0" \
-  'output_file.json'
